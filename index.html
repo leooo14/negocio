@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Negocio de Ropa</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+      color: #333;
+    }
+
+    header {
+      background-color: #ff6b6b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 250px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 200px; /* Ancho fijo */
+      height: 200px; /* Alto fijo */
+      object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Negocio de Ropa</h1>
+    <p>¡La mejor ropa al mejor precio!</p>
+  </header>
+
+  <nav>
+    <a href="#about">Sobre Nosotros</a>
+    <a href="#products">Productos</a>
+    <a href="#contact">Contáctanos</a>
+  </nav>
+
+  <section class="section" id="about">
+    <h2>¿Quiénes somos?</h2>
+    <p>Somos un negocio dedicado a ofrecer ropa de calidad para todas las edades. ¡Moda, comodidad y estilo en un solo lugar!</p>
+  </section>
+
+  <section class="section" id="products">
+    <h2>Productos Destacados</h2>
+    <div class="products">
+      <div class="product">
+        <img src="camisa.jpg" alt="Camisa Casual">
+        <h3>Camisa Casual</h3>
+        <p>Precio: S/ 59.90</p>
+      </div>
+      <div class="product">
+        <img src="jeans.jpg" alt="Jeans Clásicos">
+        <h3>Jeans Clásicos</h3>
+        <p>Precio: S/ 89.90</p>
+      </div>
+      <div class="product">
+        <img src="vestido.jpg" alt="Vestido Elegante">
+        <h3>Vestido Elegante</h3>
+        <p>Precio: S/ 129.90</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contáctanos</h2>
+    <p>Estamos aquí para ayudarte. ¡No dudes en contactarnos!</p>
+    <ul>
+      <li><strong>Correo:</strong> <a href="mailto:leopardog152@gmail.com">leopardog152@gmail.com</a></li>
+      <li><strong>Teléfono:</strong> +51 931 251 483</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Mi Negocio de Ropa</p>
+    <p>Diseñado con ❤️ por Mi Negocio</p>
+  </footer>
+</body>
+</html>
